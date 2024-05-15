@@ -23,9 +23,9 @@ function Login() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h2 className="loginLogo"> Lamasocial</h2>
+          <h2 className="loginLogo"> Socioplex</h2>
           <span className="loginDesc">
-            Connect with friends and the world around you using Lamasocial
+            Connect with friends and the world around you using Socioplex
           </span>
         </div>
         <div className="loginRight">

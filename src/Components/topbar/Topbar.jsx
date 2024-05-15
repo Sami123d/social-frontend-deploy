@@ -20,7 +20,7 @@ function Topbar() {
       <div className="topbarContainer">
         <div className="leftTopbar">
           <Link to={"/"}  style={{ textDecoration: 'none' }}> 
-            <p className="logoTopbar">Lamasocial</p>
+            <p className="logoTopbar">Socioplex</p>
             <button onClick={signOutHandler}>log out</button>
           </Link>
         </div>
