@@ -14,6 +14,7 @@ function Profile() {
   const username = params.username;
   
   const [user, setUser] = useState({});
+
   useEffect(() => {
     const fetchUser = async () => {
       const res = await axios.get(

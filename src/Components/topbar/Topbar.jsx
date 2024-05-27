@@ -21,7 +21,7 @@ function Topbar() {
         <div className="leftTopbar">
           <Link to={"/"}  style={{ textDecoration: 'none' }}> 
             <p className="logoTopbar">Socioplex</p>
-            <button onClick={signOutHandler}>log out</button>
+            
           </Link>
         </div>
         <div className="middleTopbar">
@@ -60,7 +60,7 @@ function Topbar() {
             alt="polki"
           />
           </Link>
-         
+          <button className="logout-btn" onClick={signOutHandler}>log out</button>
         </div>
       </div>
     </>

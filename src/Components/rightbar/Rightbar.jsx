@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Add, Remove } from "@mui/icons-material";
 import { AuthContext } from "../../context/AuthContext";
 function Rightbar({ user }) {
+
   const { user: currentUser, dispatch } = useContext(AuthContext);
   const [followed, setFollowed] = useState(currentUser.followings.includes(user?.id));
   const [friends, setFriends] = useState([]);
